@@ -1,0 +1,14 @@
+
+
+spring:
+   r2dbc:
+      url: r2dbc:postgresql://192.168.1.3:5432/post
+      username: post
+      password: rubin@1
+      properties:
+         schema: scrt_ownr
+   application :
+      name: security
+      
+   main:
+      allow-circular-references : true
